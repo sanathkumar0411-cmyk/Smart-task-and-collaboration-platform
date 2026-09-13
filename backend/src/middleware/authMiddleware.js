@@ -12,7 +12,7 @@ const protect = async (req, res, next) => {
         message: "Authentication required",
       });
     }
-
+    
     // Extract token
     const token = authHeader.split(" ")[1];
 
